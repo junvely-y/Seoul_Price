@@ -30,7 +30,7 @@ need_columns = ['지하철역명']
 df_filtered = df[need_columns]
 
 # Kakao API 설정
-KAKAO_API_KEY = 'f49e4c6c00131a2a854e2b63747ee78a'
+# KAKAO_API_KEY = '카카오맵 API 키'
 KAKAO_MAP_URL = 'https://dapi.kakao.com/v2/local/search/keyword.json'
 
 def get_station_coordinates(station_name):

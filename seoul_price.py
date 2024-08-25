@@ -15,7 +15,7 @@ test_file_path = 'seoul_apt_price_test.csv'
 train_output_file = 'seoul_apt_price_lat_lon_add_train.csv'
 test_output_file = 'seoul_apt_price_lat_lon_add_test.csv'
 
-api_key = 'f49e4c6c00131a2a854e2b63747ee78a'
+# api_key = '카카오맵 API 키'
 
 def load_and_preprocess_data(file_path):
     df = pd.read_csv(file_path, encoding='cp949')
